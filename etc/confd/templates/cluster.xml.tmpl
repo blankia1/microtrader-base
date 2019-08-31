@@ -30,7 +30,7 @@
       <multicast enabled="false"/>
       <tcp-ip enabled="false"/>
       <aws enabled="true">
-        <region>{{getv "/cluster/aws/region" "us-west-2"}}</region>
+        <region>{{getv "/cluster/aws/region" "eu-west-1"}}</region>
         <iam-role>{{getv "/cluster/aws/iam/role" "DEFAULT"}}</iam-role>
         <tag-key>{{getv "/cluster/aws/tag/key" "hazelcast:group"}}</tag-key>
         <tag-value>{{getv "/cluster/aws/tag/value" "microtrader"}}</tag-value>
